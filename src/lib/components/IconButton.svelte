@@ -52,14 +52,16 @@
     }
 
     .btn:hover button {
-        @apply text-white transition-all duration-100 rounded-[14px];
+        @apply text-white rounded-[14px];
         background: var(--btn-hover-color);
         animation: borders 0.3s linear;
+        transition: background .4s;
     }
 
     button {
-        @apply w-[48px] relative h-[48px] overflow-hidden rounded-full bg-[#313338] flex items-center justify-center transition-all duration-100;
+        @apply w-[48px] relative h-[48px] overflow-hidden rounded-full bg-[#313338] flex items-center justify-center;
         animation: defaultBorder 0.3s linear;
+        transition: background .4s;
     }
 
     @keyframes defaultBorder {
@@ -70,7 +72,7 @@
             @apply rounded-[30px];
         }
         100% {
-            @apply rounded-full;
+            @apply rounded-full ;
         }
     }
 
