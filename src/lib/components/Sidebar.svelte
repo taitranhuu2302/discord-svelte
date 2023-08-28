@@ -25,7 +25,7 @@
 
 <style lang="postcss">
     .sidebar {
-        @apply w-[72px] bg-[#1e1f22] pt-[12px] flex flex-col items-center gap-[8px] relative;
+        @apply min-w-[72px] bg-[#1e1f22] pt-[12px] flex flex-col items-center gap-[8px] relative;
     }
 
     .line {
