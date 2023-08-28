@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --green: #23A559;
+}
+
+.btn:hover svg {
+    fill: var(--btn-hover-text-color) !important;
+}
