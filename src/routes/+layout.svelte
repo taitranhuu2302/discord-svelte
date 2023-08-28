@@ -19,4 +19,8 @@
     .tab {
         @apply bg-[#2b2d31] w-[240px];
     }
+
+    main {
+		    @apply w-full;
+    }
 </style>
