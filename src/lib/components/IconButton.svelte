@@ -54,7 +54,7 @@
     .btn:hover button {
         @apply text-white rounded-[14px];
         background: var(--btn-hover-color);
-        animation: borders 0.3s linear;
+        animation: borders 0.2s linear;
         transition: background .4s;
     }
 
