@@ -18,7 +18,7 @@
 		<IconExplore slot="icon"/>
 	</IconButton>
 	<div class="line"></div>
-	<IconButton hoverColor="#23a559" hoverTextColor="#fff" tooltip="Explore Discoverable Servers">
+	<IconButton hoverColor="#23a559" hoverTextColor="#fff" tooltip="Download Apps">
 		<IconDownload slot="icon"/>
 	</IconButton>
 </section>
